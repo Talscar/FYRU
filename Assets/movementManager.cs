@@ -42,14 +42,50 @@ public class movementManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        if(_controllers.Length != 0)
+        if (_controllers.Length != 0)
         {
             controllersExist = true;
+            current = _controllers[controllerInput].control_Type;
+            foreach (CustomControllers controller in _controllers)
+            {
+                controller.canvas.SetActive(false);//.activeSelf = false;
+                //con
+            }
+            _controllers[controllerInput].canvas.SetActive(true);
+            update_Controller_Function();
         }
         charUpdate();
     }
 
     bool controllersExist = false;
+
+    public void changePlayscheme(int pageZero)
+    {
+        if (pageZero < 0)
+        {
+            if (controllerInput <= 0)
+            {
+                //_controllers.Length 
+                controllerInput = _controllers.Length + pageZero;
+            }
+            else
+            {
+                controllerInput += pageZero;
+            }
+        }
+        else
+        {
+            if (controllerInput < _controllers.Length - 1 && controllerInput != _controllers.Length - 1)
+            {
+                controllerInput += pageZero;
+            }
+            else
+            {
+                controllerInput = 0;
+            }
+        }
+        return;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -64,19 +100,89 @@ public class movementManager : MonoBehaviour
         }
         else if(controllerInput < _controllers.Length)
         {
-            if (_controllers[controllerInput].uniSlider == null)
+            if(_controllers[controllerInput].control_Type != current)
             {
-                x = _controllers[controllerInput].controlInputRotation.value;
-                z = _controllers[controllerInput].controlInputForward.value;
+                //_controllers[controllerInput].canvas.SetActive(false);
+                Debug.LogError("Dissable;");
+                foreach (CustomControllers controller in _controllers)
+                {
+                    controller.canvas.SetActive(false);//.activeSelf = false;
+                                                       //con
+                }
+                //_controllers[controllerInput].canvas.SetActive(false);
+                if (!_controllers[controllerInput].canvas.activeInHierarchy)
+                {
+                    current = _controllers[controllerInput].control_Type;
+                    _controllers[controllerInput].canvas.SetActive(true);
+                    update_Controller_Function();
+                }
+
             }
-            else
+            if (callFunction != "")
             {
-                x = _controllers[controllerInput].uniSlider.value.x;
-                z = _controllers[controllerInput].uniSlider.value.y;
+                Invoke(callFunction, 0);
             }
+                //MonoBehaviour.//Invoke(call);
+            ////////////////if (_controllers[controllerInput].uniSlider == null)
+            ////////////////{
+            ////////////////    x = _controllers[controllerInput].controlInputRotation.value;
+            ////////////////    z = _controllers[controllerInput].controlInputForward.value;
+            ////////////////}
+            ////////////////else
+            ////////////////{
+            ////////////////    x = _controllers[controllerInput].uniSlider.value.x;
+            ////////////////    z = _controllers[controllerInput].uniSlider.value.y;
+            ////////////////}
         }
     }
 
+
+    [SerializeField]private string callFunction = "";
+    void update_Controller_Function()
+    {
+        Debug.Log("Check: " + callFunction);
+        switch (current)
+        {
+            case controlMode.joystick_Direct:
+                callFunction = "controller_Joystick_Direct";
+                break;
+            case controlMode.joystick_Look_With_Thrust:
+                callFunction = "controller_Joystick_Look_With_Thrust";
+                break;
+            case controlMode.joystick_Selection:
+                callFunction = "controller_Joystick_Selection";
+                break;
+            case controlMode.Sliders:
+                callFunction = "controller_Sliders";
+                break;
+        }
+        return;
+    }
+
+    void controller_Joystick_Direct()
+    {
+        x = _controllers[controllerInput].uniSlider.value.x;
+        z = _controllers[controllerInput].uniSlider.value.y;
+        //x = _controllers[controllerInput].controlInputRotation.value;
+        //z = _controllers[controllerInput].controlInputForward.value;
+        return;
+    }
+    void controller_Joystick_Selection()
+    {
+
+        return;
+    }
+    void controller_Joystick_Look_With_Thrust()
+    {
+
+        return;
+    }
+    void controller_Sliders()
+    {
+        x = _controllers[controllerInput].controlInputRotation.value;
+        z = _controllers[controllerInput].controlInputForward.value;
+        return;
+    }
     //public void springSlider(Slider thisSlider)
     //{
     //    if(thisSlider.inter)
@@ -94,6 +200,7 @@ public class movementManager : MonoBehaviour
     public int controllerInput = 0;
     [System.Serializable] public struct CustomControllers
     {
+        public GameObject canvas;
         public controlMode control_Type;
 
         public UniSlider uniSlider;
@@ -102,6 +209,6 @@ public class movementManager : MonoBehaviour
 
     }
     public enum controlMode {joystick_Direct, joystick_Selection, joystick_Look_With_Thrust, Sliders };
-
+    controlMode current;
 }
 
