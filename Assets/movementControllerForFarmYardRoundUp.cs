@@ -24,6 +24,7 @@ public class movementControllerForFarmYardRoundUp : MonoBehaviour {
     Rigidbody rb;
     void Start()
     {
+        globalManager = (movementManager)FindObjectOfType(typeof(movementManager));//GetComponent<movementManager>();
         //if(ai)
         rb = GetComponent<Rigidbody>();
         //inflicted.Initialize(this.gameObject);
@@ -34,39 +35,39 @@ public class movementControllerForFarmYardRoundUp : MonoBehaviour {
     //float moveSpeed;
     void Update()
     {
+        Vector2 dir = new Vector2();
+        if(globalManager != null)
+        {
+            if(_inControl)
+            {
+                //Get a set of inputs
+                dir = globalManager.dir();
+            }
+        }
         rb.velocity = new Vector3(0, rb.velocity.y, 0);
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-        var z = (Input.GetAxis("Vertical") * Time.deltaTime * 3.0f) * speed;
-
-        transform.Rotate(0, x, 0);
-        //transform.Translate(0, 0, z);
+        //var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
+        //var z = (Input.GetAxis("Vertical") * Time.deltaTime * 3.0f) * speed;
+        //Vector2 dir(movementManager.);
 
 
-        Vector3 moveDirection = new Vector3(0, 0, z);
-        //rb.MovePosition(moveDirection * speed);//(Vector3.forward * (speed * z));
-        //rb.AddForce(Vector3.forward * 1000);
-        rb.velocity += transform.forward * (z * forceFactor);
+        if (dir != new Vector2(0, 0))
+        {
+            transform.Rotate(0, dir.x, 0);
 
-        ////if (inflicted != null)
-        ////{
-
-        ////}
-        //////////Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Jump"),Input.GetAxis("Vertical"));
-
-        ////if (inflicted != null)
-        ////{
-        ////    inflicted.TriggerAbility();
-        ////}
-        //if(Input.GetKeyDown(KeyCode.Alpha4))
-        //{
-        //    inflicted.TriggerAbility();
-        //    //inflicted.Initialize(this.gameObject);
-        //}
-        ////////transform.position += moveDirection;
-        //////rb.AddForce(moveDirection * speed);
-
+            Vector3 moveDirection = new Vector3(0, 0, dir.y);
+            rb.velocity += transform.forward * (dir.y * forceFactor);
+        }
     }
 
+
+
+    movementManager globalManager;
+    bool _inControl;
+    public void inControl(bool isControlling)
+    {
+        _inControl = isControlling;
+        return;
+    }
     //public Ability[] statusEffect;
 
     //[System.Serializable]public struct statusModifier
