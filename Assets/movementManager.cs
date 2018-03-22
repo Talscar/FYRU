@@ -64,8 +64,16 @@ public class movementManager : MonoBehaviour
         }
         else if(controllerInput < _controllers.Length)
         {
-            x = _controllers[controllerInput].controlInputRotation.value;
-            z = _controllers[controllerInput].controlInputForward.value;
+            if (_controllers[controllerInput].uniSlider == null)
+            {
+                x = _controllers[controllerInput].controlInputRotation.value;
+                z = _controllers[controllerInput].controlInputForward.value;
+            }
+            else
+            {
+                x = _controllers[controllerInput].uniSlider.value.x;
+                z = _controllers[controllerInput].uniSlider.value.y;
+            }
         }
     }
 
@@ -86,7 +94,7 @@ public class movementManager : MonoBehaviour
     public int controllerInput = 0;
     [System.Serializable] public struct CustomControllers
     {
-        public Slider uniSlider;
+        public UniSlider uniSlider;
         public Slider controlInputRotation;
         public Slider controlInputForward;
     }

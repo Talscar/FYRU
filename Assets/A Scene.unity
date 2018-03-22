@@ -4702,7 +4702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   limit: 50
   handle: {fileID: 374005838}
-  minMaxValue: 1
+  minMaxValue: 2
   value: {x: 0, y: 0}
   valuePerUnit: 0
 --- !u!1 &1087846216
@@ -9367,6 +9367,9 @@ MonoBehaviour:
   - uniSlider: {fileID: 0}
     controlInputRotation: {fileID: 855308523}
     controlInputForward: {fileID: 1110300307}
+  - uniSlider: {fileID: 1066789645}
+    controlInputRotation: {fileID: 0}
+    controlInputForward: {fileID: 0}
   controllerInput: 0
 --- !u!4 &2088777964
 Transform:
