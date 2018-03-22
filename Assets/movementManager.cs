@@ -86,6 +86,7 @@ public class movementManager : MonoBehaviour
     public int controllerInput = 0;
     [System.Serializable] public struct CustomControllers
     {
+        public Slider uniSlider;
         public Slider controlInputRotation;
         public Slider controlInputForward;
     }
