@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler {
 
     //Slider
-    Vector2 position;
+    //Vector2 position;
     public float limit;
     public Transform handle;
 
@@ -19,7 +19,7 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
 	// Use this for initialization
 	void Start () {
         //newPointer = GetComponent<PointerEventData>();
-        valuePerUnit = minMaxValue / limit;
+        //valuePerUnit = minMaxValue / limit;
     }
 
     bool carryHandle = false;
@@ -37,7 +37,7 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
         //Debug.Log("eventdata: " + eventdata);
         handle.transform.position = transform.position;
     }
-    public float valuePerUnit;
+    //public float valuePerUnit;
 
     PointerEventData newPointer;
 
@@ -61,9 +61,10 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
 
             handle.position = newPos; 
         }
-            value = new Vector2((handle.localPosition.x - position.x), (handle.localPosition.y - position.y)).normalized * minMaxValue;
+        Debug.Log(handle.position.x + " : " + transform.position.x + " = " + (handle.position.x - transform.position.x));
+        value = new Vector2((handle.position.x - transform.position.x), (handle.position.y - transform.position.y)).normalized * minMaxValue;// * minMaxValue;
 
-	}
+    }
 }
 // Vector3 centerPosition = transform.localPosition; //center of *black circle*
 //float distance = Vector3.Distance(newLocation, centerPosition);

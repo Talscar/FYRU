@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class movementManager : MonoBehaviour
 {
-    int currentSelection = 0;
+    public int currentSelection = 0;
     [SerializeField] public static int charSelection = 0;
-    [SerializeField] private int CharacterClassesSelection;
+    //[SerializeField] private int CharacterClassesSelection;
     public controlClass[] CharacterClasses;
     [System.Serializable]
     public struct controlClass
@@ -94,10 +94,14 @@ public class movementManager : MonoBehaviour
     public int controllerInput = 0;
     [System.Serializable] public struct CustomControllers
     {
+        public controlMode control_Type;
+
         public UniSlider uniSlider;
         public Slider controlInputRotation;
         public Slider controlInputForward;
+
     }
+    public enum controlMode {joystick_Direct, joystick_Selection, joystick_Look_With_Thrust, Sliders };
 
 }
 
