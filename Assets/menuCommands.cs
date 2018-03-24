@@ -29,23 +29,39 @@ public class menuCommands : MonoBehaviour {
     }
     public void playGame(int scene)
     {
-
+        SceneManager.LoadScene(scene);
     }
 
     public GameObject optionsMenu;
         public void Options()
     {
-
+        MenuOff();
+        optionsMenu.SetActive(true);
     }
 
     public GameObject creditsMenu;
     public void Credits()
     {
-
+        MenuOff();
+        creditsMenu.SetActive(true);
     }
 
     public void Quit()
     {
         Application.Quit();
+    }
+    public GameObject mainMenu;
+    public void MenuOff()
+    {
+        mainMenu.SetActive(false);
+        return;
+    }
+
+    public void Return()
+    {
+        Debug.LogError("This does not return appropriately!");
+        optionsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
 }

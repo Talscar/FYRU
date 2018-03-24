@@ -35,7 +35,7 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
     {
         carryHandle = false;
         //Debug.Log("eventdata: " + eventdata);
-        handle.transform.position = transform.position;
+        handle.transform.localPosition = new Vector3(0, 0, 0);//transform.position;
     }
     //public float valuePerUnit;
 
