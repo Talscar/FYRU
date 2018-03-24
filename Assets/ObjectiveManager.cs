@@ -36,7 +36,7 @@ public class ObjectiveManager : MonoBehaviour {
 
     }
     public float startTime = 30f;
-    bool gamePlaying = falses;
+    bool gamePlaying = false;
     float timeRemaining = 0f;
     public Time thisTime;
 	// Use this for initialization
