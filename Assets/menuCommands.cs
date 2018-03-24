@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;// Versions;
 
 public class menuCommands : MonoBehaviour {
 
@@ -19,6 +20,17 @@ public class menuCommands : MonoBehaviour {
     //void Update () {
 
     //}
+    public int mainMenuScene = 0;
+    public void MainMenu()
+    {
+        //SceneManager.
+        SceneManager.LoadScene(mainMenuScene);
+        //Application.LoadLevel(mainMenuScene);
+    }
+    public void playGame(int scene)
+    {
+
+    }
 
     public GameObject optionsMenu;
         public void Options()
