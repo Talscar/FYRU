@@ -103,6 +103,20 @@ public class movementControllerForFarmYardRoundUp : MonoBehaviour {
 
     //    return;
     //}
+
+    int myObjectiveSlot;
+    public int SlotInObjective(int set, bool get)
+    {
+        if(!get)
+        {
+            myObjectiveSlot = set;
+        }
+        else
+        {
+            return myObjectiveSlot;
+        }
+        return set;
+    }
 }
 
     //bool whileMovement;

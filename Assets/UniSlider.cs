@@ -61,7 +61,7 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
 
             handle.position = newPos; 
         }
-        Debug.Log(handle.position.x + " : " + transform.position.x + " = " + (handle.position.x - transform.position.x));
+        //Debug.Log(handle.position.x + " : " + transform.position.x + " = " + (handle.position.x - transform.position.x));
         value = new Vector2((handle.position.x - transform.position.x), (handle.position.y - transform.position.y)).normalized * minMaxValue;// * minMaxValue;
 
     }

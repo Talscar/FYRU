@@ -16,7 +16,7 @@ public class movementManager : MonoBehaviour
         public movementControllerForFarmYardRoundUp[] Controllers;
     }
 
-    void charUpdate()
+    void characterUpdate()
     {
         foreach(movementControllerForFarmYardRoundUp controller in CharacterClasses[charSelection].Controllers)
         {
@@ -54,7 +54,7 @@ public class movementManager : MonoBehaviour
             _controllers[controllerInput].canvas.SetActive(true);
             update_Controller_Function();
         }
-        charUpdate();
+        characterUpdate();
     }
 
     bool controllersExist = false;
@@ -86,12 +86,16 @@ public class movementManager : MonoBehaviour
         }
         return;
     }
+    public void controllerUpdate(int scheme)
+    {
+        controllerInput = scheme;
+    }
     // Update is called once per frame
     void Update()
     {
         if(currentSelection != charSelection)
         {
-            charUpdate();
+            characterUpdate();
         }
         if (!controllersExist)
         {
