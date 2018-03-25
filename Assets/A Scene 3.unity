@@ -8810,16 +8810,21 @@ Prefab:
         type: 2}
       propertyPath: CharacterClasses.Array.data[0].Controllers.Array.data[4]
       value: 
-      objectReference: {fileID: 657084770}
+      objectReference: {fileID: 1530970007}
     - target: {fileID: 114242471836801660, guid: a1e02d7f89711144d81373d4362a4f24,
         type: 2}
       propertyPath: CharacterClasses.Array.data[0].Controllers.Array.data[5]
       value: 
-      objectReference: {fileID: 657084770}
+      objectReference: {fileID: 123577765}
     - target: {fileID: 114242471836801660, guid: a1e02d7f89711144d81373d4362a4f24,
         type: 2}
       propertyPath: CharacterClasses.Array.data[1].name
       value: Sheep
+      objectReference: {fileID: 0}
+    - target: {fileID: 114497488049989212, guid: a1e02d7f89711144d81373d4362a4f24,
+        type: 2}
+      propertyPath: startTime
+      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1e02d7f89711144d81373d4362a4f24, type: 2}
