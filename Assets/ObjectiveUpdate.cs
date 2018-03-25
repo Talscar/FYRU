@@ -10,6 +10,7 @@ public class ObjectiveUpdate : MonoBehaviour {
     [SerializeField] private int count;
     private void OnTriggerEnter(Collider other)
     {
+        Debug.LogWarning("Game breaks! : " + other.gameObject.name);
         if (other.gameObject.tag == "Pig" || other.gameObject.tag == "Sheep" || other.gameObject.tag == "Cow" || other.gameObject.tag == "Chook")
         {
             if(other.GetComponent("movementControllerForFarmYardRoundUp") != null)
