@@ -44,10 +44,25 @@ public class UniSlider : MonoBehaviour,  IPointerUpHandler, IPointerDownHandler 
     //public Vector2 c
     // Update is called once per frame
     void Update () {
-		if(carryHandle)
+        //////////////float x = Input.GetAxis("Horizontal");
+        //////////////float y = Input.GetAxis("Vertical");
+
+        //newPos = new Vector3(0, 0, 0);
+        //if (x != 0 || y != 0)
+        //{
+        //    newPos = new Vector3(x, y, 0);
+        //}
+        ////////if(x != 0 || y != 0)
+        ////////{
+        ////////    carryHandle = true;
+        ////////}
+        if (carryHandle)
         {
+            Vector3 newPos = new Vector3(0, 0, 0);
             Vector3 centerPosition = transform.position; //center of *black circle*
-            Vector3 newPos = new Vector3(newPointer.position.x, newPointer.position.y, 0);
+
+            newPos = new Vector3(newPointer.position.x, newPointer.position.y, 0);
+            
             float distance = Vector3.Distance(newPos, centerPosition);
             if (distance > limit) //If the distance is less than the radius, it is already within the circle.
             {
