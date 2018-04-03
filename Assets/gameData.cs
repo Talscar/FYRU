@@ -19,7 +19,8 @@ public class gameData : MonoBehaviour {
 
     private void OnLevelWasLoaded(int level)
     {
-        foreach(int scene in scenesToResetScore)
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        foreach (int scene in scenesToResetScore)
         {
             if(scene == level)
             {
