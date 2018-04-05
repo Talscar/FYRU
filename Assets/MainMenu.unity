@@ -1328,6 +1328,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 852634d112bd8ef489c4d23593603837, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &537997325 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1657826158538380, guid: 852634d112bd8ef489c4d23593603837,
+    type: 2}
+  m_PrefabInternal: {fileID: 537997324}
+--- !u!114 &537997326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537997325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c51acb4edfbc142a1a72bed5bc3c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalPotions: 5
+  totalCoins: 100
+  weaponID: Weapon_102
 --- !u!1 &585346937
 GameObject:
   m_ObjectHideFlags: 0
