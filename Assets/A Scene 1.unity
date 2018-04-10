@@ -3072,7 +3072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &901662760
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4353,6 +4353,7 @@ MonoBehaviour:
   startTime: 999
   timeRemaining: 0
   timerText: {fileID: 2063260771}
+  isMenu: 0
   nextScene: 2
 --- !u!4 &1501531074
 Transform:
@@ -5262,7 +5263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1902242329
 RectTransform:
   m_ObjectHideFlags: 0

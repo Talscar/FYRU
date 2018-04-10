@@ -89,19 +89,23 @@ public class ObjectiveManager : MonoBehaviour {
 
     // Update is called once per frame
     public UnityEngine.UI.Text timerText;
+    public bool isMenu = false;
 	void Update () {
-        if (gamePlaying)
+        if (!isMenu)
         {
-            timeRemaining -= Time.deltaTime;
-        }
-        if (timerText != null)
-            timerText.text = "" + (int)timeRemaining;
+            if (gamePlaying)
+            {
+                timeRemaining -= Time.deltaTime;
+            }
+            if (timerText != null)
+                timerText.text = "" + (int)timeRemaining;
 
-        if (timeRemaining < 0 && gamePlaying)
+            if (timeRemaining < 0 && gamePlaying)
 
-        {
-            gamePlaying = false;
-            levelFailed();
+            {
+                gamePlaying = false;
+                levelFailed();
+            }
         }
 	}
 
