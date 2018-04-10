@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 5a62c0f9933eeff499580268a591b0c3
-timeCreated: 1522814773
+guid: 9060b2064a457544d9582a8d0e85cabe
+timeCreated: 1523341966
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -13,6 +13,7 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
+    6400000: default
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,9 +44,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
