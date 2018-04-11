@@ -402,6 +402,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_B (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
   m_IsPrefabParent: 0
@@ -451,6 +463,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_A (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -762,6 +786,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -807,6 +843,18 @@ Prefab:
     - target: {fileID: 100002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_Name
       value: Fence_Corner_L (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -1060,6 +1108,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -1112,11 +1172,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -1746,6 +1810,18 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c2ee4a7e5ed72fe45af6ec23ca1d8b00, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c2ee4a7e5ed72fe45af6ec23ca1d8b00, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c2ee4a7e5ed72fe45af6ec23ca1d8b00, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2ee4a7e5ed72fe45af6ec23ca1d8b00, type: 3}
   m_IsPrefabParent: 0
@@ -2087,11 +2163,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -2515,11 +2595,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -2585,11 +2669,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -3545,6 +3633,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -3602,6 +3702,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -3828,6 +3940,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -3968,6 +4092,18 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180.00002
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
   m_IsPrefabParent: 0
@@ -4106,6 +4242,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -4284,11 +4432,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -4708,11 +4860,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -4766,11 +4922,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -4821,6 +4981,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -5056,6 +5228,18 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180.00002
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
   m_IsPrefabParent: 0
@@ -5177,6 +5361,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_A (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -5643,6 +5839,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -5692,6 +5900,18 @@ Prefab:
     - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -5941,11 +6161,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -5996,6 +6220,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -6321,11 +6557,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -6380,6 +6620,18 @@ Prefab:
     - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -6526,11 +6778,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -6584,11 +6840,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -6639,6 +6899,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -6854,11 +7126,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -7648,11 +7924,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -7703,6 +7983,18 @@ Prefab:
     - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -8157,11 +8449,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -8219,11 +8515,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -8366,11 +8666,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -9009,6 +9313,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -9155,11 +9471,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -9214,6 +9534,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -9358,6 +9690,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
   m_IsPrefabParent: 0
@@ -9403,6 +9747,18 @@ Prefab:
     - target: {fileID: 100002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_Name
       value: Fence_Corner_L (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -10108,6 +10464,18 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 3c48a57da94d40848846b8b8cd83f79e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 3c48a57da94d40848846b8b8cd83f79e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 3c48a57da94d40848846b8b8cd83f79e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c48a57da94d40848846b8b8cd83f79e, type: 3}
   m_IsPrefabParent: 0
@@ -10461,11 +10829,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -10833,11 +11205,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -10983,6 +11359,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_B (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
   m_IsPrefabParent: 0
@@ -11032,6 +11420,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -11222,11 +11622,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca8476dd93ab3143ab7214385d0f501, type: 3}
@@ -11367,6 +11771,18 @@ Prefab:
     - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ff9cb926fdb9114fb36f85bda4b85da, type: 3}
@@ -11688,6 +12104,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
@@ -12227,6 +12655,18 @@ Prefab:
       propertyPath: m_Name
       value: Fence_Middle_B (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
   m_IsPrefabParent: 0
@@ -12606,6 +13046,18 @@ Prefab:
     - target: {fileID: 100002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
       propertyPath: m_Name
       value: Fence_Middle_B (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9060b2064a457544d9582a8d0e85cabe, type: 3}
