@@ -87,7 +87,9 @@ public class gameData : MonoBehaviour {
         {
             Debug.LogError("Did not find manager!");
         }
-    }
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+    
+}
     // Update is called once per frame
     //void Update () {
 
