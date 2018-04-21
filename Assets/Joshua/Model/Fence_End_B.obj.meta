@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Joshua/Model/Fence_End_B.obj.meta
 guid: 1124f08f2b3231047b922d923f191a5f
 timeCreated: 1522675179
+=======
+guid: c2ee4a7e5ed72fe45af6ec23ca1d8b00
+timeCreated: 1523341966
+>>>>>>> 52fdafb2dad8afabce4adf49ff351b1819cc48ba:Assets/Joshua/Fence/Model/Fence_End_B.obj.meta
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -12,6 +17,11 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
+<<<<<<< HEAD:Assets/Joshua/Model/Fence_End_B.obj.meta
+=======
+    6400000: default
+  externalObjects: {}
+>>>>>>> 52fdafb2dad8afabce4adf49ff351b1819cc48ba:Assets/Joshua/Fence/Model/Fence_End_B.obj.meta
   materials:
     importMaterials: 1
     materialName: 0
@@ -41,7 +51,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

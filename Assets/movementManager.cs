@@ -54,6 +54,16 @@ public class movementManager : MonoBehaviour
             _controllers[controllerInput].canvas.SetActive(true);
             update_Controller_Function();
         }
+
+        data = GameObject.FindObjectOfType<gameData>();
+        if(data != null)
+        {
+            Debug.Log("DATA EXISTS!");
+        }
+        else
+        {
+            Debug.LogError("Does not...");
+        }
         characterUpdate();
     }
 
@@ -84,8 +94,14 @@ public class movementManager : MonoBehaviour
                 controllerInput = 0;
             }
         }
+        
+        if(data != null)
+        {
+            data.myControlScheme = controllerInput;
+        }
         return;
     }
+    gameData data;
     public void controllerUpdate(int scheme)
     {
         controllerInput = scheme;
